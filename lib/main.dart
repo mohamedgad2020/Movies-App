@@ -12,14 +12,13 @@ class MoviesApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  MaterialApp(
+    return MaterialApp(
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        fontFamily: GoogleFonts.ptSans().fontFamily,
+        fontFamily: GoogleFonts.openSans().fontFamily,
       ),
-
-      home:const OnBoardingScreen(),
+      home: const OnBoardingScreen(),
     );
   }
 }
